@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#container{
+  display: flex;
+  height: auto;
+  width: auto;
+  flex-wrap: wrap;
+  align-content: center;
+  overflow: scroll;
+  border: solid black;
+  justify-items: center;
+  padding: 1em;
+  background-color: #7682FF;
+}
+#first{
+  background-color: #B7BBE8;
+  display: grid;
+grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 40px;
+  grid-gap: 5px;
+}
+#set{
+  padding: 10px;
+  background-color: #616CDE;
+  width: 60px;
+}
+#number{
+  width: 25em;
+}
+#color{
+  width: 120px;
+  background-color: #25C575;
+}
